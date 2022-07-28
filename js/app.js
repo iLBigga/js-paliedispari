@@ -1,6 +1,6 @@
 //Chiedo all'utente di inserire una parola
-let userWorld;
-while (userWorld === '') {
+let userWorld = prompt('Inseriwsci una parola');
+while (userWorld  == '') {
     userWorld = prompt('Inseriwsci una parola');
 }
 
